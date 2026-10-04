@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tertius Software | Soluzioni Informatiche Avanzate</title>
 
-    <!-- Favicon: icona della tab del browser (logo SVG dentro public/) -->
+    <!-- Favicon SVG -->
     <link rel="icon" type="image/svg+xml" href="public/logo.svg">
 
     <link rel="stylesheet" href="style.css">
-    <!-- Google Fonts per un look moderno e tecnologico -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -17,8 +16,12 @@
     <!-- Navigazione -->
     <nav class="navbar" id="navbar">
         <div class="logo-container">
-            <!-- Logo SVG (dentro la cartella public/) -->
-            <img src="public/logo.svg" alt="Logo Tertius Software" class="logo-img">
+            <!-- Logo SVG con width/height espliciti per evitare il flash iniziale -->
+            <img src="public/logo.svg"
+                 alt="Logo Tertius Software"
+                 class="logo-img"
+                 width="50"
+                 height="50">
             <div class="logo-text">
                 <span class="brand-name">Tertius</span>
                 <span class="brand-sub">Software</span>
@@ -48,7 +51,6 @@
             </div>
         </div>
         <div class="hero-graphic">
-            <!-- Linee geometriche decorativa in stile tech -->
             <div class="line line-1"></div>
             <div class="line line-2"></div>
             <div class="glow-circle"></div>
